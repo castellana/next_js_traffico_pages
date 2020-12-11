@@ -11,7 +11,7 @@ const Header = () => {
             <div className="introduction">
                 <h2>Your awesome traffic permit consultant.</h2>
 
-                <a href="" className="getStarted">Get started </a>
+                <a href="" className="getStarted">Get started &#8594;</a>
             </div>
             <img src="../img/mobel.svg" alt="" className="mobel"></img>
 
@@ -20,10 +20,18 @@ const Header = () => {
                 main {
                     min-height: 115vh;
                     background: url('../img/Scene.svg') left top / contain no-repeat;
-                    }
+                }
                 .introduction {
                         width: 45%;
                         margin: 10vh 13%;
+                }
+                .getStarted {
+                    background: #EE4D47;
+                    border-radius: 5px;
+                    padding: 25px;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-size: 1.2rem;
                 }
                 .mobel {
                     width: 38%;

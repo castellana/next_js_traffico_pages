@@ -7,7 +7,7 @@ const HowTo = () => {
             </div>
             <style jsx>{`
             .apply {
-                background: url(../img/illustrations.svg) -20% bottom/ 60% no-repeat;
+                background: url(../img/how_to.svg) -20% bottom/ 60% no-repeat;
                 height: 70vh;
                 width: 75%;
                 margin: 20vh auto;

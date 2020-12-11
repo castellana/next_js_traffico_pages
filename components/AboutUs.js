@@ -9,10 +9,11 @@ const AboutUs = () => {
 
             <style jsx>{`
                 .about{
-                    background: url('../img/illustration.svg') right / 55% no-repeat;
+                    background: url('../img/about_us.svg') right / 55% no-repeat;
                     height: 70vh;
                     width: 80%;
                     margin: 10vh auto;
+                    font-family: 'Rubik', sans-serif;
 
                 }
                 .about-text {

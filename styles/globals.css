@@ -2,9 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'DM Serif Display', serif;
-  /* font-family: 'Roboto', sans-serif;
-  font-family: 'Rubik', sans-serif; */
+  /*font-family: 'DM Serif Display', serif;*/
+  /* font-family: 'Roboto', sans-serif;*/
+  font-family: 'Rubik', sans-serif;
     background: #E5E5E5;;
 }
 

@@ -17,7 +17,7 @@ const Navigation = () => {
                 </li>
                 <li>
                     <Link href="/faq">
-                        <a>Faq</a>
+                        <a>Faqs</a>
                     </Link>
                 </li>
                 <li>
@@ -39,20 +39,22 @@ const Navigation = () => {
                 ul {
                     width: 60%;
                     text-align: right;
+                    display: flex;
+                    justify-content: space-around;
+
                 }
                 li {
                     display: inline-block;
-                    margin: 4%;
+                    padding: 25px;
+                }
+                ul li:last-child{
+                    background: #EE4D47;
+                    border-radius: 5px;
                 }
                 a {
                     color: #fff;
                     text-transform: uppercase;
-                    font-family: 'Roboto', sans-serif;
-                    font-size: 1.3rem;
-                    
-                }
-                a:hover {
-                    transform: scale(1.1)
+                    font-size: 1.2rem;
                 }
                
             `}</style>
