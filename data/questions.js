@@ -30,3 +30,5 @@ const questions = [
     answer: "Answer10"
     }
 ]
+
+export default questions

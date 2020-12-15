@@ -1,23 +1,24 @@
-// import questions from '../data/questions'
-// import Accordion from './Accordion'
+import questions from '../data/questions'
+import Accordion from './Accordion'
 
 const FaqSection = () => {
     return ( 
-        // <section className="rectangle">
+        <section>
             <section id="faq">
                 <article className="text-container">
                     <h2 className="section_title">Faq</h2>
                     <h3>Questions and Answers on Professional Traffic Permits:</h3>
                 </article>
                 <img src="../img/faqs.svg" alt=""/>
-            {/* </section> */}
-            {/* <section className="accord">
+            </section>
+
+            <section className="accord">
                 {questions.map(singleAnswer => <Accordion
                 question ={singleAnswer.question}
                 answer ={singleAnswer.answer}
-                key={singleAnswer.id}
+                // key={singleAnswer.id}
                 />)}
-            </section> */}
+            </section>
 
             <style jsx>{`
                 #faq {
@@ -39,6 +40,17 @@ const FaqSection = () => {
                     font-family: 'DM Serif Display', serif;
                     font-size: 2.7rem;
                     width: 70%;
+                }
+                .accord {
+                    width: 80%;
+                    height: 70vh;
+                    margin: 0 auto;
+                    display: grid;
+                    column-gap: 5%;
+                    row-gap: 1vh;
+                    grid-template-rows: repeat(5, 1fr);
+                    grid-auto-flow: column;
+                    grid-auto-columns: repeat(2, 1fr);
                 }
             `}</style>
         </section>
